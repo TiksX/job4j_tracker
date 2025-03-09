@@ -19,6 +19,7 @@ public class Error {
         System.out.println("Active: " + active);
         System.out.println("Status: " + status);
         System.out.println("Message: " + message);
+    }
 
     public static void main(String[] args) {
         Error error1 = new Error();
@@ -26,6 +27,7 @@ public class Error {
         Error error2 = new Error(true, 2, "Привет");
         error2.printInfo();
         Error error3 = new Error(false, 404, "Не найдено");
+        error3.printInfo();
         }
     }
-}
+
