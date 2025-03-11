@@ -21,11 +21,7 @@ public class Calculator {
     }
 
     public int sumAllOperation(int d) {
-        int sumResult = sum(d);
-        int minusResult = minus(d);
-        int multiplyResult = multiply(d);
-        int divideResult = divide(d);
-        return sumResult + minusResult + minusResult + divideResult;
+        return sum(d) + minus(d) + multiply(d) + divide(d);
     }
 
     public static void main(String[] args) {
