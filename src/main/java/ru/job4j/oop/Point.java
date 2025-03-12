@@ -17,4 +17,8 @@ import static java.lang.Math.pow;
         public double distance(Point that) {
             return sqrt(pow(this.x - that.x, 2) + pow(this.y - that.y, 2));
         }
+
+        public void info() {
+            System.out.println("Point[" + this.x + ", " + this.y + "]");
+        }
     }
