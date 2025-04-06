@@ -22,3 +22,4 @@ public class FindAllAction implements UserAction {
         return true;
     }
 }
+
