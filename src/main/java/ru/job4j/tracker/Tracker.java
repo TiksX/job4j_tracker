@@ -6,7 +6,7 @@ public class Tracker {
     private int ids = 1;
     private int size = 0;
 
-    public Item add(Item item) {
+    public Item createItem(Item item) {
         item.setId(ids++);
         items[size++] = item;
         return item;
@@ -51,7 +51,7 @@ public class Tracker {
         return result;
     }
 
-    public boolean replace(int id, Item item) {
+    public boolean replaceItem(int id, Item item) {
         int index = indexOf(id);
         boolean result = index != -1;
         if (result) {
@@ -61,7 +61,7 @@ public class Tracker {
         return result;
     }
 
-    public void delete(int id) {
+    public void deleteItem(int id) {
         int index = indexOf(id);
         boolean result =  index == -1;
         if (result) {
