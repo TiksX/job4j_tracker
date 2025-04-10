@@ -117,7 +117,7 @@ import static org.assertj.core.api.Assertions.assertThat;
                             + "0. Показать все заявки" + ln
                             + "1. Завершить программу" + ln
                             + "=== Вывод всех заявок ===" + ln
-                            + "1. test1" + ln
+                            + one + ln
                             + "Меню:" + ln
                             + "0. Показать все заявки" + ln
                             + "1. Завершить программу" + ln
@@ -144,7 +144,7 @@ import static org.assertj.core.api.Assertions.assertThat;
                             + "0. Показать заявки по имени" + ln
                             + "1. Завершить программу" + ln
                             + "=== Вывод заявок по имени ===" + ln
-                            + "1. test1" + ln
+                            + one + ln
                             + "Меню:" + ln
                             + "0. Показать заявки по имени" + ln
                             + "1. Завершить программу" + ln
@@ -171,7 +171,7 @@ import static org.assertj.core.api.Assertions.assertThat;
                             + "0. Показать заявку по id" + ln
                             + "1. Завершить программу" + ln
                             + "=== Вывод заявки по id ===" + ln
-                            + "1. test1" + ln
+                            + one + ln
                             + "Меню:" + ln
                             + "0. Показать заявку по id" + ln
                             + "1. Завершить программу" + ln
