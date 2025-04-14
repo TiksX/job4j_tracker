@@ -17,4 +17,13 @@ class FactorialTest {
                 });
         assertThat(exception.getMessage()).isEqualTo("Number could not be less than 0");
     }
+
+    @Test
+    void whenCalculateFactorialForFiveThenOneHundredTwenty() {
+        Factorial factorial = new Factorial();
+        int expected = 120;
+        int number = 5;
+        int output = factorial.calc(number);
+        assertThat(output).isEqualTo(expected);
+    }
 }
