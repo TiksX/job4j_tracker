@@ -28,10 +28,10 @@ public class UserStore {
         if (validate(user)) {
             System.out.println("This user has an access");
         }
-        } catch (UserNotFoundException e) {
-            System.out.println("User not found: " + e.getMessage());
         } catch (UserInvalidException e) {
             System.out.println("User is not valid: " + e.getMessage());
+        } catch (UserNotFoundException e) {
+            System.out.println("User not found: " + e.getMessage());
         }
     }
 }
