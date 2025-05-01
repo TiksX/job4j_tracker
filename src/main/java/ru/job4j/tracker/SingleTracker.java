@@ -4,7 +4,7 @@ public class SingleTracker {
 
     private static SingleTracker instance;
 
-    private static Tracker tracker = new Tracker();
+    private Tracker tracker = new Tracker();
 
     private SingleTracker() {
     }
